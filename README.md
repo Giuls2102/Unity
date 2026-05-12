@@ -1,5 +1,5 @@
 # Unity-Orchestrated Sensing
-School-inspired object-sorting rehabilitation setup for post-stroke patient (Neuro-Inspired Systems Engineering group project)
+School-inspired object-sorting rehabilitation setup for post-stroke patient (Neuro-Inspired Systems Engineering group project) - October/November 2025
 
 ### Task description:
 The player must order the objects/books in the order suggested by the screen. A correct placement is rewarded through a green light (visual feedback) and a high-pitched sound (acoustic), while a mistake through a red light and lower sound.
