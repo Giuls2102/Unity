@@ -1,8 +1,11 @@
-# Unity 
-## Neuro-Inspired Systems Engineering group project
-School-inspired object-sorting rehabilitation setup for post-stroke patient
+# Unity-Orchestrated Sensing
+School-inspired object-sorting rehabilitation setup for post-stroke patient (Neuro-Inspired Systems Engineering group project)
 
+Task description:
+The player must order the objects/books in the order suggested by the screen. A correct placement is rewarded through a green light (visual feedback) and a high-pitched sound (acoustic), while a mistake through a red light and lower sound.
 
+My contribution to the project:
+Creation of classroom environment in Unity (C#), introduction visual and acoustic feedback, systems integration (3 nodes) to Unity master (C# and python bridges).
 - `BooksAppear.cs` – Toggles visibility of grouped book props via the new Input System for staged reveals/resets during therapy scenes.
 - `Sequence_game.cs` – Feedback-rich table sequencing game that enforces a Purple→Blue→Orange activation order, adds audio, shakes incorrect tables, and hides books after completion.
 - `Menu.cs` – Boots the experience, launches Python bridges, lets facilitators jump between Start/History views, and wires keyboard shortcuts for quick operator control.
